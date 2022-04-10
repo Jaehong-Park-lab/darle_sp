@@ -9,6 +9,11 @@ a {
     text-decoration: none;
     color: black;
 }
+.common-button {
+    line-height: 22px;
+    font-size: 15px;
+    border: 1px solid black;
+}
 
 /* header */
 .header {
@@ -458,14 +463,14 @@ a {
     text-align: center;
     padding: 15px;
 }
-/*제품문의*/
+/*Q&A*/
 .qa-textarea {
     width: 500px;
     height: 100px;
     resize: none;
 }
 
-/*장바구니*/
+/*shipping_address*/
 .order {
     width: 900px;
     margin: auto;
@@ -875,19 +880,22 @@ a {
     border-spacing: 0;
 }
 
-/*공지사항*/
+/*notice*/
 .notice thead th {
     font-weight: normal;
-    font-size: 13px;
+    font-size: 16px;
     text-align: center;
 }
-
+.title-number {
+    text-align: center;
+}
 .notice tbody td {
     font-weight: normal;
-    font-size: 13px;
-    text-align: center;
+    font-size: 16px;
 }
-
+.notice-text-style {
+    text-align: left;
+}
 .title-content {
     text-align: left;
 }
@@ -897,9 +905,9 @@ a {
 }
 
 .list-number input {
-    line-height: 15px;
-    font-size: 12px;
-    width: 35px;
+    line-height: 20px;
+    font-size: 16px;
+    width: 40px;
     text-align: center;
     background-color: white;
     border: 1px solid black;
@@ -917,8 +925,8 @@ a {
 
 .searchBox {
     border: 1px solid black;
-    line-height: 20px;
-    font-size: 13px;
+    line-height: 25px;
+    font-size: 15px;
 }
 
 #search {
@@ -928,7 +936,7 @@ a {
 .search-field {
     text-decoration: none;
     color: black;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /*orderComplete*/
@@ -995,7 +1003,7 @@ a {
     border: 1px solid rgb(202, 202, 202);
 }
 
-/*글쓰기*/
+/*write*/
 .write #btitle {
     line-height: 25px;
     font-size: 16px;
@@ -1010,3 +1018,30 @@ a {
     font-size: 16px;
     padding: 10px;
 }
+
+/*board_content*/
+.board_content table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.board_content thead th {
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+}
+.board_content tbody td {
+    font-weight: normal;
+    font-size: 16px;
+}
+.notice-text-style {
+    text-align: left;
+}
+.title-content {
+    text-align: left;
+}
+.board_content td, .board_content th {
+    padding: 10px;
+    border: 1px solid black;
+}
+

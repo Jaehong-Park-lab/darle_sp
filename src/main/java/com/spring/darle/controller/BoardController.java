@@ -23,4 +23,10 @@ public class BoardController {
 
     return "board/write";
   }
+
+  @GetMapping("/board_content")
+  public String getBoardContent() {
+
+    return "board/board_content";
+  }
 }
